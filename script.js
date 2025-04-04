@@ -129,19 +129,22 @@ function checkLogin() {
     const errorMessage = document.getElementById("error-message");
 
     const correctUsername = "Polinka";
-    const correctPasswordHash = "BVR2025";
-    const correctUsername2= "Nastya";
-    const correctPasswordHash2 = "BVR2025";
+    const correctPassword = "BVR2025"; // Теперь это plain-text пароль
+    const correctUsername2 = "Nastya";
+    const correctPassword2 = "BVR2025"; // Теперь это plain-text пароль
 
-    
-
-    if ((username === correctUsername && inputPasswordHash === correctPasswordHash) || (username === correctUsername2 && inputPasswordHash=== correctPasswordHash2) ) {
+    if ((username === correctUsername && password === correctPassword) ||
+        (username === correctUsername2 && password === correctPassword2)) {
         localStorage.setItem("loggedIn", "true");
         document.getElementById("login-overlay").style.display = "none";
+        // Обновляем страницу, чтобы изменения вступили в силу
+        window.location.reload();
     } else {
         errorMessage.textContent = "Неверный логин или пароль!";
     }
 }
+
+
 
 
 
