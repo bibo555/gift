@@ -1,0 +1,649 @@
+body {
+    margin: 0;
+    height: 800vh; /* Длинный экран для прокрутки */
+    
+    background-image: url('gege.png'), url('gege.png'), url('gege.png'), url('gege.png'), url('gege.png'), url('gege.png');
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: center top 115vh, center top 234vh, center top 353vh, center top 472vh, center top 591vh, center top 710vh; 
+    background-color: black;
+    background-attachment:scroll; /* Фон фиксирован */
+}
+
+
+header {
+    width: 100%;
+    left: 5%;
+    text-align: center;
+    background-color: black;
+    padding: 10px 0;
+    position: relative;
+    z-index: 10;
+}
+html, body {
+    overflow-x: hidden;
+}
+
+main {
+    width: 100%;
+    
+}
+.club {
+    position: absolute; /* Или relative, в зависимости от контейнера */
+    top: 1vh;
+    left: 63%;
+    transform: translateX(-50%); /* Центрируем по горизонтали */
+}
+.repa{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top:180vh;
+    left: 54%;
+    box-shadow: 0 0 10px rgba(143, 134, 194, 3);
+    transition: transform 0.3s ease-in-out; /* Красивый эффект */
+}
+.repa:hover{
+    box-shadow:0 0 15px rgba(186, 5, 241, 0.959); 
+    transform: scale(1.1);
+}
+
+.lemana{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top:283vh;
+    left: 23%;
+    box-shadow: 0 0 10px rgba(143, 134, 194, 3);
+    transition: transform 0.3s ease-in-out; /* Красивый эффект */
+}
+.lemana:hover{
+    box-shadow:0 0 15px rgba(186, 5, 241, 0.959); 
+    transform: scale(1.1);
+}
+.priexal{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top:300vh;
+    left: 54%;
+    box-shadow: 0 0 10px rgba(143, 134, 194, 3);
+    transition: transform 0.3s ease-in-out; /* Красивый эффект */
+}
+.priexal:hover{
+    box-shadow:0 0 15px rgba(186, 5, 241, 0.959); 
+    transform: scale(1.1);
+}
+
+.sbor1{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top:335vh;
+    left: 52%;
+    box-shadow: 0 0 10px rgba(143, 134, 194, 3);
+    transition: transform 0.3s ease-in-out; /* Красивый эффект */
+}
+.sbor1:hover{
+    box-shadow:0 0 15px rgba(186, 5, 241, 0.959); 
+    transform: scale(1.1);
+}
+
+.sbor2{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top:379vh;
+    left: 49%;
+    box-shadow: 0 0 10px rgba(143, 134, 194, 3);
+    transition: transform 0.3s ease-in-out; /* Красивый эффект */
+}
+.sbor2:hover{
+    box-shadow:0 0 15px rgba(186, 5, 241, 0.959); 
+    transform: scale(1.1);
+}
+
+.sbor3{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top:402vh;
+    left: 21%;
+    box-shadow: 0 0 10px rgba(143, 134, 194, 3);
+    transition: transform 0.3s ease-in-out; /* Красивый эффект */
+}
+.sbor3:hover{
+    box-shadow:0 0 15px rgba(186, 5, 241, 0.959); 
+    transform: scale(1.1);
+}
+
+.sbor4{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top:419vh;
+    left: 58%;
+    box-shadow: 0 0 10px rgba(143, 134, 194, 3);
+    transition: transform 0.3s ease-in-out; /* Красивый эффект */
+}
+.sbor4:hover{
+    box-shadow:0 0 15px rgba(186, 5, 241, 0.959); 
+    transform: scale(1.1);
+}
+.sbor5{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top:500vh;
+    left: 48%;
+    box-shadow: 0 0 10px rgba(143, 134, 194, 3);
+    transition: transform 0.3s ease-in-out; /* Красивый эффект */
+}
+.sbor5:hover{
+    box-shadow:0 0 15px rgba(186, 5, 241, 0.959); 
+    transform: scale(1.1);
+}
+
+.sbor6{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top:538vh;
+    left: 56%;
+    box-shadow: 0 0 10px rgba(143, 134, 194, 3);
+    transition: transform 0.3s ease-in-out; /* Красивый эффект */
+}
+.sbor6:hover{
+    box-shadow:0 0 15px rgba(186, 5, 241, 0.959); 
+    transform: scale(1.1);
+}
+.sbor7{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top:555vh;
+    left: 18%;
+    box-shadow: 0 0 10px rgba(143, 134, 194, 3);
+    transition: transform 0.3s ease-in-out; /* Красивый эффект */
+}
+.sbor7:hover{
+    box-shadow:0 0 15px rgba(186, 5, 241, 0.959); 
+    transform: scale(1.1);
+}
+.sbor8{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top:575vh;
+    left: 56%;
+    box-shadow: 0 0 10px rgba(143, 134, 194, 3);
+    transition: transform 0.3s ease-in-out; /* Красивый эффект */
+}
+.sbor8:hover{
+    box-shadow:0 0 15px rgba(186, 5, 241, 0.959); 
+    transform: scale(1.1);
+}
+.sbor9{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top:620vh;
+    left: 45%;
+    box-shadow: 0 0 10px rgba(143, 134, 194, 3);
+    transition: transform 0.3s ease-in-out; /* Красивый эффект */
+}
+.sbor9:hover{
+    box-shadow:0 0 15px rgba(186, 5, 241, 0.959); 
+    transform: scale(1.1);
+}
+.sbor10{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top:640vh;
+    left: 15%;
+    box-shadow: 0 0 10px rgba(143, 134, 194, 3);
+    transition: transform 0.3s ease-in-out; /* Красивый эффект */
+}
+.sbor10:hover{
+    box-shadow:0 0 15px rgba(186, 5, 241, 0.959); 
+    transform: scale(1.1);
+}
+.sbor11{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top:672vh;
+    left: 15%;
+    box-shadow: 0 0 10px rgba(143, 134, 194, 3);
+    transition: transform 0.3s ease-in-out; /* Красивый эффект */
+}
+.sbor11:hover{
+    box-shadow:0 0 15px rgba(186, 5, 241, 0.959); 
+    transform: scale(1.1);
+}
+.sbor12{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top:692vh;
+    left: 52%;
+    box-shadow: 0 0 10px rgba(143, 134, 194, 3);
+    transition: transform 0.3s ease-in-out; /* Красивый эффект */
+}
+.sbor12:hover{
+    box-shadow:0 0 15px rgba(186, 5, 241, 0.959); 
+    transform: scale(1.1);
+}
+.photo-container {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 800px; /* Ширина совпадает с шириной нити */
+    
+}
+.photo-container .photo:hover {
+    box-shadow: 0 0 15px rgba(186, 5, 241, 0.959); /* Подсветка при наведении */
+    transform: scale(1.1); /* Немного увеличиваем фото при наведении */
+}
+
+.photo {
+    position: absolute;
+    width: 175px; /* Размер фото */
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(143, 134, 194, 3);
+    transition: transform 0.3s ease-in-out; /* Красивый эффект */
+}
+/* Контейнер для звездного неба */
+.stars-container {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    pointer-events: none; /* Чтобы не мешало кликам */
+    overflow: hidden;
+}
+
+/* Общий стиль для звезд */
+.star {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 0.8;
+    animation: twinkle 2s infinite alternate;
+}
+
+/* Разные размеры звезд */
+.star:nth-child(odd) {
+    width: 3px;
+    height: 3px;
+    opacity: 0.5;
+    animation-duration: 3s;
+}
+
+.star:nth-child(even) {
+    width: 1.5px;
+    height: 1.5px;
+    opacity: 0.7;
+    animation-duration: 1.5s;
+}
+
+/* Эффект мерцания */
+@keyframes twinkle {
+    0% { opacity: 0.3; transform: scale(1); }
+    100% { opacity: 1; transform: scale(1.2); }
+}
+
+
+.pip{
+    color: white;
+    text-align: center;
+    z-index: 20;
+    font-size: 30px;
+    top: 260vh;
+    position: absolute;
+    left: 40%
+}
+
+#randomBtn {
+    top: 25vh;
+    left: 56%;
+    display: block;
+    margin: 20px auto;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #6200ea; /* Фиолетовый цвет */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    position: absolute;
+ 
+    transform: translateX(-50%);
+    z-index: 100;
+}
+
+#randomBtn:hover {
+    background-color: #3700b3;
+}
+#login-overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+#login-box {
+    background: black;
+    padding: 20px;
+    border-radius: 30px;
+    border-color: aliceblue;
+    text-align: center;
+    width: 400px;
+    color: whitesmoke;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+
+#login-box input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#login-box button {
+    width: 100%;
+    padding: 10px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#login-box button:hover {
+    background: #3700b3;
+}
+
+#error-message {
+    color: red;
+    font-size: 14px;
+}
+
+
+/* Делаем общий контейнер отзывчивым */
+body {
+    margin: 0;
+    background-color: black;
+    overflow-x: hidden; /* Отключаем горизонтальный скролл */
+}
+
+
+
+/* === Для очень маленьких экранов === */
+/* === Жесткий сдвиг вправо для 440px === */
+/* === Центрирование для экранов до 440px === */
+@media (max-width: 440px) {
+    /* 1. Общие настройки для всех медиаэлементов */
+    .photo,
+    .repa, .lemana, .priexal, 
+    .sbor1, .sbor2, .sbor3, 
+    .sbor4, .sbor5, .sbor6, 
+    .sbor7, .sbor8, .sbor9, 
+    .sbor10, .sbor11, .sbor12 {
+        position: absolute !important;
+        transform: none !important; /* Убираем все трансформации */
+        margin: 0 !important;
+        z-index: 10;
+    }
+
+    /* 2. Размеры элементов */
+    .photo {
+        width: 140px !important;
+        height: 140px !important;
+    }
+
+    .repa, .lemana, .priexal, 
+    .sbor1, .sbor2, .sbor3, 
+    .sbor4, .sbor5, .sbor6, 
+    .sbor7, .sbor8, .sbor9, 
+    .sbor10, .sbor11, .sbor12 {
+        width: 150px !important;
+        height: 150px !important;
+        border-radius: 50%;
+        object-fit: cover;
+
+    }
+
+    /* Фото - адаптированные координаты */
+    .photo:nth-child(1) { top: 100vh !important; left: 65% !important; }
+    .photo:nth-child(2) { top: 156vh !important; left: 30% !important; }
+    .photo:nth-child(3) { top: 186vh !important; left: 10% !important; }
+    
+    .photo:nth-child(5) { top: 211vh !important; left: 14% !important; }
+    .photo:nth-child(6) { top: 228vh !important; left: 56% !important; }
+    .photo:nth-child(7) { top: 300vh !important; left: 13% !important; }
+    .photo:nth-child(8) { top: 300vh !important; left: 31% !important; }
+    .photo:nth-child(9) { top: 301vh !important; left: 13% !important; }
+    .photo:nth-child(14) { top: 391vh !important; left: 13% !important; }
+    .photo:nth-child(15) { top: 407vh !important; left: 56% !important; }
+    .photo:nth-child(17) { top: 456vh !important; left: 12% !important; }
+    .photo:nth-child(23) { top: 558vh !important; left: 60% !important; }
+    .photo:nth-child(26) { top: 617vh !important; left: 50% !important; }
+    .photo:nth-child(27) { top: 635vh !important; left: 11% !important; }
+
+    
+
+
+    
+    /* Видео - адаптированные координаты */
+    .repa { top: 198vh !important; left: 60% !important; }
+    .lemana { top: 273vh !important; left: 12% !important; }
+    .priexal { top: 288vh !important; left: 62% !important; }
+    .sbor1 { top: 315vh; left: 55%; }
+    .sbor2 { top: 350vh; left: 48%; }
+    .sbor3 { top: 365vh; left: 11%; }
+    .sbor4 { top: 378vh; left: 65%; }
+    .sbor5 { top: 440vh; left: 50%; }
+    .sbor6 { top: 468vh; left: 65%; }
+    .sbor7 { top: 479vh; left: 9%; }
+    .sbor8 { top: 494vh; left: 55%; }
+    .sbor9 { top: 527vh; left: 49%; }
+    .sbor10 { top: 545vh; left: 8%; }
+    .sbor11 { top: 569vh; left: 9%; }
+    .sbor12 { top: 582vh; left: 57%; }
+
+    /* 5. Контейнер */
+    .photo-container {
+        position: absolute !important;
+        width: 100% !important;
+        height: 660vh !important;
+        left: 0 !important;
+        transform: none !important;
+        max-width: none !important;
+    }
+
+    /* 6. Остальные элементы */
+    .club {
+        left: 61% !important;
+        transform: translateX(-50%) rotate(-10deg) !important;
+       
+    }
+
+    #randomBtn {
+        left: 53% !important;
+        transform: translateX(-50%) !important;
+    }
+
+    .pip {
+        left: 50% !important;
+        top: 246vh;
+        transform: translateX(-50%) !important;
+        width: 90% !important;
+    }
+
+    /* 7. Фоновая нить */
+    body {
+        height: 645vh !important;
+        background-position: 
+            center top 144vh, 
+            center top 234vh, 
+            center top 324vh, 
+            center top 414vh,  /* Добавлена запятая */
+            center top 504vh,
+            center top 594vh !important;
+        background-size: 150% auto !important;
+        background-size: 150% auto !important;
+    }
+}
+
+
+@media (max-width: 490px) and (min-width: 441px) {
+    /* 1. Общие настройки для всех медиаэлементов */
+    .photo,
+    .repa, .lemana, .priexal, 
+    .sbor1, .sbor2, .sbor3, 
+    .sbor4, .sbor5, .sbor6, 
+    .sbor7, .sbor8, .sbor9, 
+    .sbor10, .sbor11, .sbor12 {
+        position: absolute !important;
+        transform: none !important; /* Убираем все трансформации */
+        margin: 0 !important;
+        z-index: 10;
+    }
+
+    /* 2. Размеры элементов */
+    .photo {
+        width: 140px !important;
+        height: 140px !important;
+    }
+
+    .repa, .lemana, .priexal, 
+    .sbor1, .sbor2, .sbor3, 
+    .sbor4, .sbor5, .sbor6, 
+    .sbor7, .sbor8, .sbor9, 
+    .sbor10, .sbor11, .sbor12 {
+        width: 150px !important;
+        height: 150px !important;
+    }
+
+    /* Фото - адаптированные координаты */
+    .photo:nth-child(1) { top: 100vh !important; left: 65% !important; }
+    .photo:nth-child(2) { top: 158vh !important; left: 30% !important; }
+    .photo:nth-child(3) { top: 188vh !important; left: 10% !important; }
+    
+    .photo:nth-child(5) { top: 215vh !important; left: 14% !important; }
+    .photo:nth-child(6) { top: 232vh !important; left: 56% !important; }
+
+    .photo:nth-child(9) { top: 314vh !important; left: 11% !important; }
+    .photo:nth-child(14) { top: 410vh !important; left: 13% !important; }
+    .photo:nth-child(15) { top: 425vh !important; left: 56% !important; }
+    .photo:nth-child(17) { top: 483vh !important; left: 12% !important; }
+    .photo:nth-child(23) { top: 595vh !important; left: 63% !important; }
+    .photo:nth-child(26) { top: 660vh !important; left: 50% !important; }
+    .photo:nth-child(27) { top: 679vh !important; left: 11% !important; }
+
+    
+
+
+    
+    /* Видео - адаптированные координаты */
+    .repa { top: 202vh !important; left: 60% !important; }
+    .lemana { top: 286vh !important; left: 12% !important; }
+    .priexal { top: 300vh !important; left: 62% !important; }
+    .sbor1 { top: 329vh; left: 55%; }
+    .sbor2 { top: 365vh; left: 48%; }
+    .sbor3 { top: 384vh; left: 11%; }
+    .sbor4 { top:400vh; left: 63%; }
+    .sbor5 { top: 465vh; left: 50%; }
+    .sbor6 { top: 495vh; left: 65%; }
+    .sbor7 { top: 510vh; left: 9%; }
+    .sbor8 { top: 525vh; left: 55%; }
+    .sbor9 { top: 560vh; left: 49%; }
+    .sbor10 { top: 580vh; left: 8%; }
+    .sbor11 { top: 608vh; left: 9%; }
+    .sbor12 { top: 620vh; left: 57%; }
+
+    /* 5. Контейнер */
+    .photo-container {
+        position: absolute !important;
+        width: 100% !important;
+        height: 700vh !important;
+        left: 0 !important;
+        transform: none !important;
+        max-width: none !important;
+    }
+
+    /* 6. Остальные элементы */
+    .club {
+        left: 61% !important;
+        transform: translateX(-50%) rotate(-10deg) !important;
+       
+    }
+
+    #randomBtn {
+        left: 53% !important;
+        transform: translateX(-50%) !important;
+    }
+
+    .pip {
+        left: 50% !important;
+        top: 256vh;
+        transform: translateX(-50%) !important;
+        width: 90% !important;
+    }
+
+    /* 7. Фоновая нить */
+    body {
+        height: 630vh !important;
+        background-position: 
+            center top 148vh, 
+            center top 246vh, 
+            center top 344vh, 
+            center top 442vh, 
+            center top 540vh,
+            center top 638vh !important;
+        background-size: 150% auto !important;
+    }
+}
