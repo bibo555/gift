@@ -129,13 +129,13 @@ function checkLogin() {
     const errorMessage = document.getElementById("error-message");
 
     const correctUsername = "Polinka";
-    const correctPasswordHash = "1d28ef396bfadc033f2f663b24086ff2fb4b8056398ed4cb6909fae26b75b19a";
+    const correctPasswordHash = "BVR2025";
     const correctUsername2= "Nastya";
-    const correctPasswordHash2 = "1d28ef396bfadc033f2f663b24086ff2fb4b8056398ed4cb6909fae26b75b19a";
+    const correctPasswordHash2 = "BVR2025";
 
-    const inputPasswordHash = CryptoJS.SHA256(password).toString();
+    
 
-    if ((username === correctUsername && inputPasswordHash === correctPasswordHash) ||(username === correctUsername2 && inputPasswordHash=== correctPasswordHash2) ) {
+    if ((username === correctUsername && inputPasswordHash === correctPasswordHash) || (username === correctUsername2 && inputPasswordHash=== correctPasswordHash2) ) {
         localStorage.setItem("loggedIn", "true");
         document.getElementById("login-overlay").style.display = "none";
     } else {
